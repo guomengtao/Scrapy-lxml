@@ -25,7 +25,7 @@ class PfafRepairSpider(scrapy.Spider):
             .select("id, source_url, retry_count")
             .eq("status", "pending")
             .lt("retry_count", 5)
-            .limit(100)
+            .limit(1000)
             .execute()
         )
 
