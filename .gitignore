@@ -258,9 +258,7 @@ Temporary Items
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-# Project specific
-# Scrapy project specific
-scrapy.cfg
+ 
 
 # Data files
 data/
